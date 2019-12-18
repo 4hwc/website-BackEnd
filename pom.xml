@@ -26,6 +26,9 @@
                         <!-- GitHub OAuth token & server -->
 		<github.global.server>github</github.global.server>
         <github.global.oauth2Token>${env.GITHUB_OAUTH_TOKEN}</github.global.oauth2Token>
+		
+		<!-- unable-to-build-maven-project-due-to-javadoc-error -->
+		<additionalJOption>-Xdoclint:none</additionalJOption>
  
 		
 	</properties>
