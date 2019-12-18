@@ -24,4 +24,6 @@ https://www.google.com/search?q=Exit+code%3A+1+-+javadoc%3A+error+-+No+public+or
 
 http://maven.40175.n5.nabble.com/javadoc-plugin-claims-no-sources-but-there-s-one-td4712225.html
 
+https://stackoverflow.com/questions/23542876/unable-to-build-maven-project-due-to-javadoc-error
+
 
