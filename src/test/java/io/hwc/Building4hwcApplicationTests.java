@@ -1,13 +1,22 @@
 package io.hwc;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import io.hwc.controller.HelloController;
 
 @SpringBootTest
 class Building4hwcApplicationTests {
 
+	@Autowired
+	private HelloController helloController;
+
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		
+		Assert.assertEquals("Hello World from 4HWC",helloController.home() );
 	}
 
 }
