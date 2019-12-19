@@ -15,7 +15,7 @@ import io.hwc.controller.HelloController;
  */
 
 @SpringBootTest
-class Building4hwcApplicationTests {
+public class Building4hwcApplicationTests {
 
 	@Autowired
 	private HelloController helloController;
