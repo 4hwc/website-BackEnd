@@ -26,4 +26,8 @@ http://maven.40175.n5.nabble.com/javadoc-plugin-claims-no-sources-but-there-s-on
 
 https://stackoverflow.com/questions/23542876/unable-to-build-maven-project-due-to-javadoc-error
 
+# swagger-2-documentation-for-spring-rest-api
+
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
 
